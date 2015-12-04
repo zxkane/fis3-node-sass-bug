@@ -1,15 +1,11 @@
 /* 
 
 */
-$full-black:      rgba(0, 0, 0, 1);
-$dark-black:      rgba(0, 0, 0, 0.87);
-$light-black:     rgba(0, 0, 0, 0.54);
-$min-black:       rgba(0, 0, 0, 0.065);
-
-$full-white:      rgba(255, 255, 255, 1);
-$dark-white:      rgba(255, 255, 255, 0.87);
-$light-white:     rgba(255, 255, 255, 0.54);
-$min-white:       rgba(255, 255, 255, 0.1);
+$html-bg:           #e0e0e0;
+$body-bg:         #f0f0f0;
 
 $link-color:              inherit;
-$hover-color: 			  inherit;
+$hover-color:         inherit;
+$color-percent:           2.5%;
+$color-lt-percent:        2.5%;
+$color-dk-percent:        3.5%;

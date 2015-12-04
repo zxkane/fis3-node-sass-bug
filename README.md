@@ -1,5 +1,10 @@
 ## It's a repository to reproduce the bug of [fis-node-sass](https://github.com/fex-team/fis-parser-node-sass).
-## HowTO
+## How it works when using grunt-sass
+```sh
+npm install
+grunt sass
+```
+## How to reproduce the error
 run below command
 
 ```sh
@@ -9,9 +14,8 @@ npm install
 
 ## Symptom
 ```sh
-[ERROR] parser.node-sass: argument `$color` of `darken($color, $amount)` must be a color
+ [INFO] Currently running fis3 (/Users/kane/git/fis3-node-sass-bug/node_modules/fis3)
 
-Backtrace:
-  ../../../../bower_components/bootstrap/scss/_variables.scss:78, in function `darken`
-  ../../../../bower_components/bootstrap/scss/_variables.scss:78 [`/bower_components/bootstrap/scss/_variables.scss` 78:30] 
+ Ω ..
+ [ERROR] parser.node-sass: Undefined variable: "$html-bg". [`/assets/scss/bs.base.scss` 2:21] 
 ```
